@@ -14,12 +14,12 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		//String storedPatternsPath = args[0];
-		//String corruptedPatternsPath = args[1];
+		String storedPatternsPath = args[0];
+		String corruptedPatternsPath = args[1];
 		
 		// Process the default text files for debugging
-		String storedPatternsPath = "example_images/100_example_stored.txt";
-		String corruptedPatternsPath = "example_images/100_example_corrupt.txt";
+		//String storedPatternsPath = "example_images/100_example_stored.txt";
+		//String corruptedPatternsPath = "example_images/100_example_corrupt.txt";
 		
 		patternProcessor = new PatternProcessor();
 		
