@@ -29,6 +29,7 @@ The program is run on commandline with the following syntax:
 ```
 java Main "pathway to the training images" "pathway to the corrupt images"
 ```
+That said, there is a folder with example images and example text files. The main class has the code for these commented out for your use. 
 ### Known bugs
 Currently the maximum image size I have been able to successfully run the program with, without a heap overflow, is 100 by 100 pixels. The image processing almost certainly need optimisation. 
 
