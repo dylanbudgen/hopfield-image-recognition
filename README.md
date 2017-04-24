@@ -2,6 +2,10 @@
 
 This is a project as part of my computer science course. I was assigned to create a Hopfield network with text pattern inputs. I decided to enhance that and implement image recognition and correction. 
 
+### Hopfield network
+
+The Hopfield network uses the Hebbian learning rule with asynchronous updating of each node. There is also a learnability check, to ensure the input patterns are learnable.
+
 
 ### How to use
 
