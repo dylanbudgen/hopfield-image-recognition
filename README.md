@@ -1,13 +1,11 @@
 ## Hopfield network with image recognition and correction
 
-This is a project as part of my computer science course. I was assigned to create a Hopfield network with text pattern inputs.
-
-I decided to enhance that and implemenet image recognition and correction. 
+This is a project as part of my computer science course. I was assigned to create a Hopfield network with text pattern inputs. I decided to enhance that and implement image recognition and correction. 
 
 
 ### How to use
 
-The program requires a text file listing the pathway ways to the images to be trained and the corrupted images to be fixed.
+The program requires a text file listing the pathways to the images to be trained and the corrupted images to be fixed.
 
 The text files should be laid out like the following:
 
@@ -31,5 +29,9 @@ The program is run on commandline with the following syntax:
 ```
 java Main "pathway to the training images" "pathway to the corrupt images"
 ```
+### Known bugs
+Currently the maximum image size I have been able to successfully run the program with, without a heap overflow, is 100 by 100 pixels. The image processing almost certainly need optimisation. 
+
+
 ### Contact me
 Thanks for taking the time to look at my project. If you wish to contact me, please email me at ***REMOVED***
