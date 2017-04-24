@@ -1,0 +1,4 @@
+example_images/16_stored_1.png
+example_images/16_stored_2.png
+example_images/16_stored_3.png
+example_images/16_stored_4.png
