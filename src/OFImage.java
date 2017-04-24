@@ -1,6 +1,5 @@
 import java.awt.*;
 import java.awt.image.*;
-import javax.swing.*;
 
 /**
  * OFImage is a class that defines an image in OF (Objects First) format.

@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  *  Hopfield is a class that contains the hopfield network.
