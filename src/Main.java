@@ -1,4 +1,3 @@
-import java.io.File;
 import java.util.ArrayList;
 
 /**
@@ -12,7 +11,6 @@ public class Main {
 	
 	static PatternProcessor patternProcessor;
 	static Hopfield hopfield;
-	static ImageProcessor imageProcessor;
 
 	public static void main(String[] args) {
 
@@ -34,7 +32,7 @@ public class Main {
 		ArrayList<ArrayList<Integer>> outputPatterns = hopfield.corruptedPatterns(corruptedPatterns);
 
 		int size = patternProcessor.getInputImageSize();
-		ImageProcessor.convertPatternsToImages(outputPatterns, size);	
+		patternProcessor.convertPatternsToImages(outputPatterns, size);	
 		
 	}
 
