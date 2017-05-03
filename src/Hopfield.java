@@ -35,7 +35,9 @@ public class Hopfield {
 		double learnable = (double) numberOfPatterns / (double) numberOfNeurons;
 	
 		if (learnable >= 0.138) {
-			System.out.println("The patterns are unlearnable");
+			System.out.println("The patterns are unlearnable.");
+			System.out.println("This is because the number of patterns / the number of neurons is greater than 0.138");
+			System.out.println("Try again with less training patterns.");
 			return false;
 		}	
 
